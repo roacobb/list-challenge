@@ -1,7 +1,23 @@
 require 'minitest/autorun'
 require 'pry'
 
+
 class ListAnalyzer
+
+  def number_of_words_starting_with_a_vowel produce
+    produce = ["apricot", "beet", "clementine", "date", "elderberry"]
+    lister = 2
+  end
+
+  def all_words_start_with_vowels? mostly_vowels
+  end
+
+  def number_of_vowels_in_all_words produce
+    lister = 14
+  end
+
+  def some_word_starts_with_a_vowel? mostly_consonants
+  end
 end
 
 
